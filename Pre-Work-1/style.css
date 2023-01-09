@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background: url("https://cdn.discordapp.com/attachments/303372529077321739/1062097427483603024/Bridge_3.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+  }
+  p {
+    font-size: 22px;
+  }
+  input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    background: red;
+    color: white;
+  }
+  .logo{
+    margin-top:50px;
+    margin-bottom: 50px;
+    height: 40px;
+    }
+  .avatar{
+    width: 200px;
+    border-radius: 80px 80px 80px 80px;
+    border: 5px groove rgb(124 255 91);
+    }
+  .opacityContainer{
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 0, 0, .8);
+    background-position: center;
+    padding: 50px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    }
+  .smallNote {
+    font-size: 12px;
+    }
