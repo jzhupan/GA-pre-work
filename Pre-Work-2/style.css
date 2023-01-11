@@ -1,0 +1,50 @@
+.avatar {
+    width: 200px;
+    height: 230px;
+    border: 5px solid rgba(255, 98, 200);
+  }
+  body{
+    background: rgba(0, 255, 255);
+    color: rgba(143, 0, 255);
+  }
+  header {
+    text-align: center;
+    background: url('https://cdn.discordapp.com/attachments/303372529077321739/1062097427483603024/Bridge_3.png');
+    background-size: cover;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+  }
+  ul {
+    padding: 10px;
+    background: rgba(255, 98, 200);
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+  }
