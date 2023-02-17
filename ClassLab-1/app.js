@@ -64,14 +64,5 @@ let celsius = (tempInFarenheit - 32) * .5556
 
 //Prompt 7: Century from Year
 
-function getCentury(year){
-  if(year < 100){
-    return 1;
-  } else {
-    year > 100
-  }
-}
-
-console.log(getCentury(19))
 
 
