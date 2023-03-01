@@ -123,3 +123,34 @@ function sayHello (name) {
   }
   
   bathroomRenovationCost(12,10)
+
+  //Write a function that loops over the following array of SEI students and prints out their name, and how many letters their name is
+
+const students = [
+  'Alice',
+  'Andrew',
+  'Casey',
+  'Damian',
+  'Grant',
+  'Howie',
+  'Wade',
+  'Kat',
+  'Kimbrad',
+  'Kiu',
+  'Natasha',
+  'Obi',
+  'Pedro',
+  'Sarah',
+  'Scott',
+  'Tiffany',
+  'Zhe'
+]
+//should give us "Alice is 5 letters long"... and so on
+
+const studentsNames = (students) => {
+  for(let i = 0; i < students.length ; i++) {
+    console.log(`${students[i]} is ${students[i].length} letters long`);
+  }
+}
+
+studentsNames(students);
