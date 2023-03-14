@@ -77,45 +77,48 @@ function whatCenturyAmIAt (year) {
     This function returns true if the spring provided in the parameter is a palindrome.
 
 */
-// function palindromeTester(string) {
-//     string = string.split()
-//     return string === string.reverse()
-// }
+function palindromeTester(string) {
+    string = string.split()
+    return string === string.reverse()
+}
 
 
-//console.log(palindromeTester('bob'))
+// console.log(palindromeTester('bob'))
+// console.log(palindromeTester('nursesrun'))
+// console.log(palindromeTester('pizza'))
+// console.log(palindromeTester('kayak'))
 
 
 
 
 //5. function loop
 
-// const students = [
-//     'Alice',
-//     'Andrew',
-//     'Bartholemew',
-//     'Casey',
-//     'Damian',
-//     'Grant',
-//     'Howie',
-//     'Wade',
-//     'Kat',
-//     'Kim',
-//     'Kiu',
-//     'Natasha',
-//     'Obi',
-//     'Pedro',
-//     'Sarah',
-//     'Scott',
-//     'Tiffany',
-//     'Zhe'
-//   ]
+const students = [
+    'Alice',
+    'Andrew',
+    'Bartholemew',
+    'Casey',
+    'Damian',
+    'Grant',
+    'Howie',
+    'Wade',
+    'Kat',
+    'Kim',
+    'Kiu',
+    'Natasha',
+    'Obi',
+    'Pedro',
+    'Sarah',
+    'Scott',
+    'Tiffany',
+    'Zhe'
+  ]
 
-//   function studentsListLoop(){
-//     for (let i = 0; i < students.length; i++){
-//         console.log(`${students[i]} is ${students[i].length} letters long`)
-//     }
-//   }
+  function studentsListLoop(){
+    for (let i = 0; i < students.length; i++){
+        console.log(`${students[i]} is ${students[i].length} letters long`)
+    }
+  }
 
   //studentsListLoop()
 
@@ -139,7 +142,7 @@ function whatCenturyAmIAt (year) {
 //     }
 //   }
 
-//inStockItems()
+// inStockItems()
 
 
 //7. Realtor job - needhelp
@@ -159,9 +162,9 @@ function whatCenturyAmIAt (year) {
     console.log(houseMean)
  }
 
-  //houseValues.pop()
-  //houseValues.shift()
-  //console.log(houseValues)
+//   houseValues.pop()
+//   houseValues.shift()
+//   console.log(houseValues)
     
   realtorGig()
 

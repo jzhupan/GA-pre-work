@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(164, 99, 233);
+    text-align: center;
+}
+
+h1 {
+    color: orange;
+
+}
+
+button {
+    background-color: rgb(116, 255, 116);
+}
+
+.large {
+    width: 100px;
+    height: 100px;
+}
+
+#round {
+    border-radius: 20px;
+}
